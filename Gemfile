@@ -52,7 +52,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 2.0'
   gem 'cowsay'
   gem 'rails_12factor'
 end
