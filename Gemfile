@@ -53,6 +53,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'cowsay'
   gem 'rails_12factor'
 end
 
